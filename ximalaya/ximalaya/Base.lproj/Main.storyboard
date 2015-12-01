@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ximalaya" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="SvS-ib-GSM">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Co6-IY-kNj">
+                                        <rect key="frame" x="11" y="8" width="145" height="145"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" title="Button" image="finditem_ad"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xKY-c1-O6i">
+                                        <rect key="frame" x="164" y="8" width="145" height="145"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" title="Button" image="finditem_ad"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="dm8-Rb-eA9">
+                                        <rect key="frame" x="11" y="161" width="145" height="145"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" title="Button" image="finditem_ad"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DZa-Nx-DeU">
+                                        <rect key="frame" x="11" y="314" width="145" height="145"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" title="Button" image="finditem_ad"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="H8B-k9-FZr">
+                                        <rect key="frame" x="164" y="314" width="145" height="145"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" title="Button" image="finditem_ad"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="18C-bD-Qsk">
+                                        <rect key="frame" x="12" y="467" width="300" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" title="Button" image="finditem_iwannabehere"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Zzw-xg-Qij">
+                                        <rect key="frame" x="164" y="161" width="145" height="145"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <state key="normal" title="Button" image="finditem_ad"/>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                            </scrollView>
+                            <navigationBar contentMode="scaleToFill" id="b7z-Dg-Q2Q">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.090672663972462431" green="1" blue="0.47380068901108752" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="nihao" id="Gcu-Ve-udz"/>
+                                </items>
+                            </navigationBar>
+                            <tabBar contentMode="scaleToFill" id="ZJw-VF-kGX">
+                                <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="bqA-F8-KzV"/>
+                                    <tabBarItem systemItem="more" id="cFS-yv-5T4"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="480"/>
+                    <connections>
+                        <outlet property="lastbt" destination="18C-bD-Qsk" id="eg9-hX-zYI"/>
+                        <outlet property="sc" destination="SvS-ib-GSM" id="f2z-o8-GL5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="149" y="290"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="finditem_ad" width="145" height="145"/>
+        <image name="finditem_iwannabehere" width="300" height="75"/>
+    </resources>
+</document>
